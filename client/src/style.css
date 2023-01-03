@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+* {
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    background-image: url(/public/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1{
+    font-size: 2rem ;
+    font-weight: 700;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+ 
+
+

@@ -1,0 +1,37 @@
+
+.Services_Container{
+    padding:80px  20px 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 1240px;
+    background-color: blacks;
+}
+
+.Device_Circle{
+    border:2px solid #ffffff;
+    color: #8a8a8a;
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.5s ease-out;
+}
+
+
+.Device_Circle:hover{
+    background-color:#E809A0;
+    cursor: pointer;
+    border-color:#E809A0;
+    color: white;
+   
+}
+

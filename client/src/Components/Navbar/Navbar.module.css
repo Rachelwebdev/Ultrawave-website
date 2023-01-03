@@ -1,0 +1,121 @@
+.header{
+  position: relative;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(61, 61, 61, 0.3) 0px 1px 10px 0px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+}
+
+.logoText {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #e809a0;
+  padding-top: 1.6rem;
+}
+
+.navLinks {
+  color: white;
+}
+.navLinks ul {
+  display: none;
+}
+
+ul li {
+  list-style: none;
+  font-weight: 700;
+}
+
+.btnContact {
+  display: none;
+}
+
+.hamburger{
+  display: block;
+  padding: 1.5rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  scale: 1.5;
+}
+
+.btnContact:hover {
+  background-color: #861d65;
+  color: white;
+  font-weight: 600;
+}
+
+.menu{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  width: 100%;
+  top: 80px;
+  z-index: 5;
+  
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font: weight 900px;
+  margin-top: 2rem;
+}
+
+.menuContact{
+    display: block;
+    background-color: #e809a0;
+    border: transparent;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    width: 150px;
+    padding: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+@media (min-width: 900px) {
+  .headerContainer {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .navLinks ul {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 0px;
+    margin-top: 2rem;
+  }
+
+  .btnContact {
+    display: block;
+    background-color: #e809a0;
+    border: transparent;
+    width: 150px;
+    padding: 1rem;
+    font-weight: 600;
+    color: white;
+    margin: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hamburger{
+    display: none;
+  }
+}

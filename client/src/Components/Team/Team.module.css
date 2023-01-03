@@ -1,0 +1,54 @@
+.bg{
+    background-image: url(/public/team-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #E809A0;
+}
+
+.container{
+    margin: auto;
+    
+    padding: 128px 48px;
+    max-width: 1800px;
+
+}
+
+.container>h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 98px;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.member{
+ text-align: center;
+ color: white;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.member hr{
+ width: 150px;
+ margin:10px auto;
+ border: 1px solid #E809A0;
+}
+
+@media (min-width: 900px) {
+
+    .team{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+}
